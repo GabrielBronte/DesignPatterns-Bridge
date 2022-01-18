@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Item {
+public interface Item {
+    float extraDamage();
 }

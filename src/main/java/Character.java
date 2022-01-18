@@ -4,7 +4,7 @@ public abstract class Character {
 
     protected float dano;
 
-    public Personagem(float dano) {
+    public Character(float dano) {
         this.dano = dano;
     }
 
@@ -16,5 +16,5 @@ public abstract class Character {
         this.dano = dano;
     }
 
-    public abstract float calcularDano();
+    public abstract float calculateDamage();
 }

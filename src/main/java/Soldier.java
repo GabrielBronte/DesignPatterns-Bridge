@@ -1,9 +1,9 @@
-public class Warrior extends Character{
+public class Soldier extends Character{
 
-    public Warrior(float dano) {
-        super(dano);
+    public Soldier(float dano) {
+        super(dano + 20);
     }
-    public float calcularDano() {
+    public float calculateDamage() {
         return this.dano;
     }
 }

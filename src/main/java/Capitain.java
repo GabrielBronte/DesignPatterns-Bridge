@@ -1,9 +1,9 @@
-public class Mage extends Character{
+public class Capitain extends Character{
 
-    public Mage(float dano) {
-        super(dano);
+    public Capitain(float dano) {
+        super(dano + 50);
     }
-    public float calcularDano() {
-        return this.dano;
+    public float calculateDamage() {
+        return this.dano * (1 + this.item.extraDamage());
     }
 }
